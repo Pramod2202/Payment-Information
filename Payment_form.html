@@ -10,47 +10,48 @@
     <form action=""></form>
     <h1>Payment Form</h1>
     <h2>Contact Information</h2>
-    <p>Name: <input type="text" name="name" /></p>
+    <p>First Name: <input type="text" name="first_name" /></p>
+    <p>Last name: <input type="text" name="last_name">
     <fieldset>
       <legend>Gender</legend>
-        <p>
-          Male <input type="radio" name="gender" id="male" /> Female
-          <input type="radio" name="gender" id="female" />
-        </p> 
+      <p>
+        Male <input type="radio" name="gender" id="male" /> Female
+        <input type="radio" name="gender" id="female" />
+      </p>
     </fieldset>
     <fieldset>
-        <Legend>Address</Legend>
-        <p>
-            Street Addr: <textarea name="address" id="address" cols="80" rows="1"></textarea>
-        </p>
-        <p>
-            City: <input type="text" name="city">
-            State: <input type="text" name="state">
-            Zip: <input type="number" name="zip">
-        </p>
+      <legend>Address</legend>
+      <p>
+        Street Addr:
+        <textarea name="address" id="address" cols="80" rows="1"></textarea>
+      </p>
+      <p>
+        City: <input type="text" name="city" /> State:
+        <input type="text" name="state" /> Zip:
+        <input type="number" name="zip" />
+      </p>
     </fieldset>
-    <p>
-        Email: <input type="email" name="email" id="email">
-    </p>
+    <p>Email: <input type="email" name="email" id="email" /></p>
     <h2>Payment Information</h2>
-    <p>Card Type: 
-        <select name="card_type" id="card_type">
-            <option value="">--Select a Card type--</option>
-            <option value="visa">Visa</option>
-            <option value="mastercard">Master Card</option>
-            <option value="american_express">American Express</option>
-            <option value="discover">Discover</option>
-            <option value="paypal">Paypal</option>
-        </select>
+    <p>
+      Card Type:
+      <select name="card_type" id="card_type">
+        <option value="">--Select a Card type--</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Master Card</option>
+        <option value="american_express">American Express</option>
+        <option value="discover">Discover</option>
+        <option value="paypal">Paypal</option>
+      </select>
     </p>
     <p>
-        Card Number: <input type="number" name="card_number" id="card_number">
+      Card Number: <input type="number" name="card_number" id="card_number" />
     </p>
-     
-    <p>
-        Card Expiration: <input type="date" name="card_exp" id="card_exp">
-    </p>
-    
-    
+
+    <p>Card Expiration: <input type="date" name="card_exp" id="card_exp" /></p>
+     <p>
+        CVV: <input type="password" name="cvv" id="cvv">
+     </p>
+     <p><input type="submit" value="Pay Now"></p>
   </body>
 </html>
