@@ -37,3 +37,23 @@ Head Section
 
 - Submit Button: A submit button with the label "Pay Now" to submit the form.
 
+- Payment Form Styling
+
+This repository contains CSS styles for a payment form, designed to provide a professional and visually appealing appearance.
+
+Features
+
+Uses the Roboto font from Google Fonts for clear typography.
+Encapsulates the form inside a container with a background image for aesthetic appeal.
+Implements responsive design principles for optimal viewing on different devices.
+Validates form fields and ensures required fields are marked with an asterisk (*).
+Styles form inputs, labels, buttons, and fieldsets for a cohesive look.
+Usage
+
+To use these styles in your project, follow these steps:
+
+Copy the CSS code provided in style.css.
+Paste the CSS code into your project's CSS file or link it externally.
+Incorporate the provided HTML structure for your payment form.
+Customize the styles and form fields as needed to fit your project's requirements.
+
